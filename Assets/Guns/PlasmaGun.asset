@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f73716e76039824ab9dc0498aefebbe, type: 3}
+  m_Name: PlasmaGun
+  m_EditorClassIdentifier: 
+  name: PlasmaGun
+  specialGun: 1
+  damage: 100
+  maxDistance: 20
+  fireRate: 60
+  recoilPower: 10
+  fireMode: 1
+  aimSpeed: 10
+  reloadTime: 2
+  ReserveAmmo: 72
+  ReserveAmmoMax: 72
+  curAmmo: 14
+  curAmmoMax: 14
+  reloading: 0
+  canShoot: 1
+  prefab: {fileID: 2908850420349611023, guid: 9260b46fa4d98d74b8e43fb99d9db47a, type: 3}
+  WeaponPickupPrefab: {fileID: 8689742566729530342, guid: 90c09294ff4aa8244aba38899957b72c,
+    type: 3}
+  bullet: {fileID: 9168422539820597661, guid: e97c9be8ff6f6664584ba82caee88bc6, type: 3}
+  shootSound: {fileID: 8300000, guid: 353c1373c6ec8854ca959d876043ef1d, type: 3}
+  reloadSound: {fileID: 8300000, guid: a3e028a2a29e70848bfe64803427f7da, type: 3}

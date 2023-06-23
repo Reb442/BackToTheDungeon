@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 25b59aea3c7ff864c952bf7c70c6031a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - hand: {instanceID: 0}
+  - player: {instanceID: 0}
+  - recoil: {instanceID: 0}
+  - hitMark: {instanceID: 0}
+  - hitMarkerSfx: {instanceID: 0}
+  - BulletHolePrefab: {instanceID: 0}
+  - bulletTrail: {instanceID: 0}
+  - impactParticle: {instanceID: 0}
+  - muzzleFlash: {instanceID: 0}
+  - gunNameText: {instanceID: 0}
+  - gunCurrentAmmoText: {instanceID: 0}
+  - currentAmmoText: {instanceID: 0}
+  - currentWeapon: {instanceID: 0}
+  - BULLET: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

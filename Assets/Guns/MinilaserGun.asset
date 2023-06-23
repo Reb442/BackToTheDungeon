@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f73716e76039824ab9dc0498aefebbe, type: 3}
+  m_Name: MinilaserGun
+  m_EditorClassIdentifier: 
+  name: Minilaser Gun
+  specialGun: 1
+  damage: 1
+  maxDistance: 10
+  fireRate: 2000
+  recoilPower: 1
+  fireMode: 1
+  aimSpeed: 10
+  reloadTime: 1.5
+  ReserveAmmo: 600
+  ReserveAmmoMax: 600
+  curAmmo: 200
+  curAmmoMax: 200
+  reloading: 0
+  canShoot: 1
+  prefab: {fileID: 2908850420349611023, guid: 09b8b45a62c9e9c459a1d4d1743c865b, type: 3}
+  WeaponPickupPrefab: {fileID: 8689742566729530342, guid: 983fdf14d1562d948980d171c439246e,
+    type: 3}
+  bullet: {fileID: 9168422539820597661, guid: e97c9be8ff6f6664584ba82caee88bc6, type: 3}
+  shootSound: {fileID: 8300000, guid: 747e1e52807f5df4f893ec3ed7fa31e5, type: 3}
+  reloadSound: {fileID: 8300000, guid: 1eebb9b972a88554f8db197a4cd1a265, type: 3}

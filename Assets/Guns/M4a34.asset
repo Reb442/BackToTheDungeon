@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f73716e76039824ab9dc0498aefebbe, type: 3}
+  m_Name: M4a34
+  m_EditorClassIdentifier: 
+  name: M4A34
+  specialGun: 0
+  damage: 30
+  maxDistance: 200
+  fireRate: 600
+  recoilPower: 2
+  fireMode: 1
+  aimSpeed: 25
+  reloadTime: 1.5
+  ReserveAmmo: 360
+  ReserveAmmoMax: 360
+  curAmmo: 30
+  curAmmoMax: 30
+  reloading: 0
+  canShoot: 1
+  prefab: {fileID: 2908850420349611023, guid: 8e7d84bf78f89ad41ae2c6e66bc048f2, type: 3}
+  WeaponPickupPrefab: {fileID: 8689742566729530342, guid: 15e00bcb8de180d458fbd5bb7e44c5c3,
+    type: 3}
+  bullet: {fileID: 9168422539820597661, guid: e97c9be8ff6f6664584ba82caee88bc6, type: 3}
+  shootSound: {fileID: 8300000, guid: 501e03b925b65a646a58a14103db5919, type: 3}
+  reloadSound: {fileID: 8300000, guid: a01fc79bdec498c42901adc20db38b70, type: 3}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 451ceddd122286246a244811b8f7d001, type: 3}
+  m_Name: samuray
+  m_EditorClassIdentifier: 
+  enemyType: 1
+  enemyHealt: 100
+  angularSpeed: 200
+  enemyspeed: 7
+  stopDistance: 2
+  maxTime: 1
+  chaseDistance: 12
+  attackDistance: 3
+  idleDistance: 99999

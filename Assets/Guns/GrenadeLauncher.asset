@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f73716e76039824ab9dc0498aefebbe, type: 3}
+  m_Name: GrenadeLauncher
+  m_EditorClassIdentifier: 
+  name: Grenade Launcher
+  specialGun: 1
+  damage: 200
+  maxDistance: 1000
+  fireRate: 1
+  recoilPower: 2
+  fireMode: 0
+  aimSpeed: 10
+  reloadTime: 1
+  ReserveAmmo: 100
+  ReserveAmmoMax: 100
+  curAmmo: 10
+  curAmmoMax: 10
+  reloading: 0
+  canShoot: 1
+  prefab: {fileID: 7881251947756340241, guid: a393e059e3061f043ad41f3acdf7c829, type: 3}
+  WeaponPickupPrefab: {fileID: 8689742566729530342, guid: a55b9baf96a01e74caecb63a31a944fc,
+    type: 3}
+  bullet: {fileID: 9168422539820597661, guid: e97c9be8ff6f6664584ba82caee88bc6, type: 3}
+  shootSound: {fileID: 8300000, guid: c96a46b77ad28d5428db8076b4b3f3cf, type: 3}
+  reloadSound: {fileID: 8300000, guid: 52d18711d10aaca41847b46658a58fea, type: 3}
